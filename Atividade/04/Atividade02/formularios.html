@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+        }
+        body{
+            margin: 50px;
+        }
+        header{
+            background-color: #666;
+        }
+        nav{
+            float:left;
+            width: 100%;
+            height: 30px;
+            background-color: #ccc;
+            padding: 30px;
+        }
+        
+        select::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        nav ul{
+            list-style-type: none;
+            padding: 0%;
+        }
+        ul, #lia1,#lia2,#lia3,#lia4,#lia5{
+            display: inline;
+            margin: 2px;
+        }
+        article
+        {
+            float: left;
+            padding: 50px;
+            width: 100%;
+            background-color: #f1f1f1;
+            margin: "";
+        }
+        #a1,#a2,#a3,#a4{
+            color:black;
+            font-size: 20px;
+            text-decoration: none;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        #a1:hover,#a2:hover,#a3:hover,#a4:hover{
+            color: rgb(7, 51, 107);
+        }
+        footer{
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        input{
+            margin: 6px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <nav>
+            <ul>
+                <li id="lia1"><a id="a1" href="#a1">Pessoais</a></li>
+                <li id="lia2"><a id="a2" href="#a2">Profissionais</a></li>
+                <li id="lia3"><a id="a3" href="#a3">Escolaridade</a></li>
+                <li id="lia4"><a id="a4" href="#a4">Atividade de lazer</a></li>
+                <li id="lia5"><a id="a4" href="index.html">Sobre mim</a></li>
+            </ul>
+        </nav>
+    </div>
+    <header>
+
+    </header>
+    <section>
+        <article>
+            <form action="destination" method="get or post">
+                <label for="fname">First name:</label><br>
+                <input type="text id" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="E-mail">Email</label><br>
+                <input type="text" id="email" name="email"><br>
+                <label for="E-mail">Motivo do contato</label><br>
+                <input type="text" id="contato" name="contato">
+               
+            </form>
+        </article>
+    </section>
+    <footer>
+        <h3>Entre em contato</h3>
+        <div>
+            <ul>
+                <li>Linkedin: <a href="https://www.linkedin.com/in/filipe-gon%C3%A7alves-800301178"></a></li>
+                <Li>Email: goncalvesfilipe688@gmail.com</Li>
+                <li>Telefone: (19) 99999-9999</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

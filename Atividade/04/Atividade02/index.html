@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+        }
+        body{
+            margin: 50px;
+        }
+        header{
+            background-color: #666;
+        }
+        nav{
+            float: left;
+            width: 100%;
+            height: 30px;
+            background-color: #ccc;
+            padding: 30px; 
+        }
+        nav ul{
+            list-style-type: none;
+            padding: 0;
+           
+        }
+        ul, #lia1,#lia2,#lia3,#lia4,#lia5{
+            display: inline;
+        }
+        article{
+            float: left;
+            padding: 50px;
+            width: 100%;
+            background-color: #f1f1f1;
+            margin: "";
+        }
+        section::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        footer{
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        #a1,#a2,#a3,#a4,#a5{
+            color:black;
+            font-size: 20px;
+            text-decoration: none;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        #a1:hover,#a2:hover,#a3:hover,#a4:hover,#a5:hover{
+            color: rgb(116, 116, 241);
+        }
+        hr{
+            border-color: rgb(190, 190, 190);
+            width: 80%;
+            height: 0px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1>Meus Dados</h1> -->
+    <div>
+        <nav>
+            <ul>
+                <li id="lia1"><a id="a1" href="#a1">Pessoais</a></li>
+                <li id="lia2"><a id="a2" href="#a2">Profissionais</a></li>
+                <li id="lia3"><a id="a3" href="#a3">Escolaridade</a></li>
+                <li id="lia4"><a id="a4" href="#a4">Atividades de lazer</a></li>
+                <li id="lia5"><a id="a5" href="formularios.html">Formulário</a></li>
+            </ul>
+        </nav>
+    </div>
+    <header>
+    </header>
+    <section>  
+        <article>
+            <h3 id="a1">Dados Profissionais</h3>
+            <div>
+                <img src="./Imagens/gatoGordo.jpg" alt="Foto gatoGordo" width="10%" target="_black">
+                <br>
+                <ul>
+                    <li>Filipe Gonçalves</li>
+                    <li>21 anos</li>
+                    <li>Mora em Hortolândia</li>
+                </ul>
+            </div>    
+             <br> 
+            <hr>
+            <br>
+            <h3 id="a2">Dados Profissionais</h3>
+            <div>
+                <ul>
+                    <li>Desenvolvedor</li>
+                    <li>Empresa: Larcom</li>
+                    <li>Estágia na cidade de Campinas</li>
+                </ul>
+            </div>
+            <hr>
+            <br>
+            <h3 id="a3">Escolaridade</h3>
+            <div>
+                <ul>
+                    <li>Ensino Médio Completo</li>
+                    <li>Cursou Ensino tecnico na instituição de ensino <a href="https://www.etechortolandia.com.br/" target="_black">Etec</a></li>
+                    <li>Atualmente cursa análise e Desenvolvimento de Sistemas no <a href="https://portal.cmp.ifsp.edu.br/" target="_black">IFSP</a> câmpos Campinas</li>
+                </ul>
+            </div>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <br>
+            <h3 id="a3">Diciplinas</h3>
+            <div>
+                <ul>
+                    <li>Desenvolvimento Web</li>
+                    <li>Ingles</li>
+                    <li>Poo</li>
+                    <li>Arquitetura de Software</li>
+                    <li>Engenharia de Software</li>
+                </ul>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <h3 id="a4">Atividades de lazer</h3>
+            <div>   
+                <ul>
+                    <li>Ler</li>
+                    <li>Estudar</li>
+                    <li>Não fazer absolutamente Nada</li>
+                </ul>
+            </div>
+         </article>
+    </section>
+    <footer>
+        <h3>Entre em contato</h3>
+            <div>
+                <ul>
+                <li>Linkedin: <a href="https://www.linkedin.com/in/filipe-gon%C3%A7alves-800301178">https://www.linkedin.com/in/filipe-gon%C3%A7alves-800301178</a></li>
+                <li>Email: goncalvesfilipe688@gmail.com</li>
+                <li>Telefone: (19) 99999-9999</li>
+                </ul>
+            </div>
+    </footer>
+</body>
+</html>
